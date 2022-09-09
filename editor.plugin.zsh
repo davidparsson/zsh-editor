@@ -5,7 +5,7 @@ elif type editor &> /dev/null; then
 elif type subl &> /dev/null; then
     export EDITOR='subl --wait'
 elif type code &> /dev/null; then
-    export EDITOR='code --wait'
+    export EDITOR='code --wait --new-window'
 elif type nano &> /dev/null; then
     export EDITOR='nano'
 fi
